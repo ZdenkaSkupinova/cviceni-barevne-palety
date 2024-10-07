@@ -12,13 +12,13 @@ const App = () => {
         <h1>Barevné palety</h1>
       </header>
       <main>
-        <div className="palette">
+        <>
         {palettes.map(palette => (         
         <Palette key={palette.name} 
         paletteData={palette}
         />
       ))}
-        </div>
+        </>
       </main>
       <footer>
         <p>Czechitas, Digitální akademie: Web</p>
